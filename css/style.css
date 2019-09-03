@@ -6,6 +6,14 @@ html,body,div,span,iframe,h1,h2,h3,h4,h5,p,a,img,ul,li,table,tr,th,td,tbody,foot
 	list-style: none;
 	text-decoration: none;
 }
+font-family: 'Ubuntu', sans-serif;
+
+.my-twitter{color: gray}
+
+.mgl-10{
+    margin-left : 25px;
+}
+
 body {
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
@@ -75,8 +83,9 @@ body {
 height: 1000px;
 	position: relative;
 	/* background: url(https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/6432841/picture_pc_e9cd48501e8ad5f03a13bfefcf9e1f19.jpg) no-repeat; */
-background: url(../image/ロードスターtop.jpg) no-repeat;
+background: url(../image/ロードスターtop2.JPG) no-repeat;
 	background-size:cover;
+
 }
 h1 {
 	font-family: 'Dosis', sans-serif;
@@ -116,7 +125,7 @@ h1 {
 	position: absolute;
 }
 h2 {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Lobster', cursive;
 	color: #fff;
 	font-size: 1.9rem;
 	text-align: center;
@@ -136,6 +145,7 @@ nav {
 	margin: 0 auto;
 	padding: 88px 0;
 }
+
 #main_nav li {
 	float: left;
 	height: 225px;
@@ -144,6 +154,7 @@ nav {
 	border-radius: 50%;
 	position: relative;
 }
+
 #main_nav li:after {
 	content: "";
 	display: block;
@@ -166,8 +177,9 @@ nav {
 	float: right;
 }
 #main_nav a {
+	font-family: 'Lobster', cursive;
 	color: #000;
-	font-size: 1.5rem;
+	font-size: 2.0rem;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -191,12 +203,12 @@ nav {
 	background-size: cover;
 }
 #photo01 {
-	background-image: url(../image/ロードスターtop.jpg) ;
+	background-image: url(../image/NIGHT.jpg) ;
 }
 #photo02 {
-	background-image: url(../image/ロードスターtop.jpg) ;}
+	background-image: url(../image/USA.jpg) ;}
 #photo03 {
-	background-image: url(../image/ロードスターtop.jpg) ;}
+	background-image: url(../image/ロードスターin.jpg) ;}
 .right {
 	float: right;
 	width: 50%;
@@ -206,26 +218,44 @@ nav {
 	background-color: #aaa;
 }
 .contents p,h4 {
+
 	margin: 30px 120px 0 21px;
 	color: #fff;
 }
 h4 {
-	font-size: 2rem;
+		font-family: 'Lobster', cursive;
+	font-size: 3rem;
+}
+p{
+	font-family: 'Work Sans', sans-serif;
+font-size: 1.3rem;
 }
 .main_contact {
-	height: 163px;
-	background-color: #aaa;
+	height: 170px;
+	background-color: black;
 	margin-bottom: 100px;
 	overflow: hidden;
 }
 .main_contact_inner {
 	width: 50%;
-	height: 163px;
+	height: 0%;
 	position: relative;
+		text-align: center;
 }
-.contact_left {
-	float: left;
+
+.box4{
+    padding: 8px 19px;
+    margin: 2em 2em;
+    color: #2c2c2f;
+    background: white;
+    border-top: solid 5px #AAA;
+    border-bottom: solid 5px #AAA;
 }
+.box4 p {
+    margin: 0;
+    padding: 0;
+}
+
 .contact_left_inner {
 	position: absolute;
 	top: 0;
@@ -233,9 +263,10 @@ h4 {
 	bottom: 0;
 	left: 0;
 	width: 307px;
-	height: 53px;
+	height: 100px;
 	margin: auto;
 	overflow: hidden;
+	text-align: center;
 }
 .contact_left_inner img {
 	float: left;
@@ -243,8 +274,9 @@ h4 {
 .contact_left_inner p {
 	float: right;
 	font-size: 1.4rem;
-	line-height: 20px;
+	line-height: 50px;
 	margin: 9px 0 5px;
+	text-align: center;
 }
 .contact_left_inner span {
 	font-size: 0.9rem;
@@ -284,4 +316,25 @@ footer p {
 	margin-left: 119px;
 	font-size: 0.75rem;
 	line-height: 93px;
+}
+.hoverB {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.hoverB::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: gray;
+  transition: all 0.3s ease 0s;
+}
+.hoverB:hover {
+  cursor: pointer;
+}
+.hoverB:hover::after {
+  width: 100%;
 }
