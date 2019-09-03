@@ -8,7 +8,7 @@ html,body,div,span,iframe,h1,h2,h3,h4,h5,p,a,img,ul,li,table,tr,th,td,tbody,foot
 }
 font-family: 'Ubuntu', sans-serif;
 
-.my-twitter{color: gray}
+.my-twitter{color: black}
 
 .mgl-10{
     margin-left : 25px;
@@ -203,7 +203,7 @@ nav {
 	background-size: cover;
 }
 #photo01 {
-	background-image: url(../image/NIGHT.jpg) ;
+	background-image: url(../image/NIGHT.JPG) ;
 }
 #photo02 {
 	background-image: url(../image/USA.jpg) ;}
