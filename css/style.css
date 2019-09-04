@@ -9,9 +9,10 @@ html,body,div,span,iframe,h1,h2,h3,h4,h5,p,a,img,ul,li,table,tr,th,td,tbody,foot
 font-family: 'Ubuntu', sans-serif;
 
 .my-twitter{color: black}
+.my-insta{color: #000}
 
 .mgl-10{
-    margin-left : 25px;
+    margin-left : 30px;
 }
 
 body {
@@ -230,61 +231,78 @@ p{
 	font-family: 'Work Sans', sans-serif;
 font-size: 1.3rem;
 }
-.main_contact {
+/* .main_contact {
 	height: 170px;
 	background-color: black;
 	margin-bottom: 100px;
 	overflow: hidden;
-}
+} */
 .main_contact_inner {
 	width: 50%;
-	height: 0%;
-	position: relative;
-		text-align: center;
+	height: 120px;
+	margin: 0px;
+	padding: 0px;
+ text-align: center;
 }
 
-.box4{
-    padding: 8px 19px;
+/* .box4{
+	text-align: center;
+	width: 183%;
+	height: 80px;
+    padding: 8px 8px;
     margin: 2em 2em;
     color: #2c2c2f;
     background: white;
     border-top: solid 5px #AAA;
     border-bottom: solid 5px #AAA;
-}
+} */
 .box4 p {
-    margin: 0;
-    padding: 0;
+	width: 100%;
+	height: 60px;
+    margin: 0px;
+    padding: 0px;
+		text-align: center;
+}
+.box5 p {
+	position:fixed;
+top:650px;　
+left:30px;　
+bottom:px;
+right:---px;
+	width: 100%;
+	height: 500%;
+    margin: 0px;
+    padding: 0px;
+		text-align: center;
 }
 
-.contact_left_inner {
-	position: absolute;
+/* .contact_left_inner {
+	position: relative;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	width: 307px;
+	width: 1000px;
 	height: 100px;
-	margin: auto;
+	margin: 100px;
 	overflow: hidden;
 	text-align: center;
-}
+} */
 .contact_left_inner img {
-	float: left;
 }
 .contact_left_inner p {
-	float: right;
+	text-align: center;
 	font-size: 1.4rem;
 	line-height: 50px;
-	margin: 9px 0 5px;
-	text-align: center;
+	margin: 9px 10px 5px;
 }
 .contact_left_inner span {
 	font-size: 0.9rem;
 }
-.contact_right {
+/* .contact_right {
 	float: right;
-}
-.contact_right_inner {
+} */
+/* .contact_right_inner {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -297,7 +315,7 @@ font-size: 1.3rem;
 	padding: 0;
 	background-color: #ff0600;
 	transition: 0.4s;
-}
+} */
 .contact_right_inner:hover {
 	transform: scale(1.1,1.1);
 }
